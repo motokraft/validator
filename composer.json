@@ -1,0 +1,29 @@
+{
+    "name": "motokraft/validator",
+    "description": "Validation of data received by request",
+    "keywords": [ "html", "html5", "php", "validator" ],
+    "homepage": "https://github.com/motokraft/validator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motokraft",
+            "email": "valeravk230594@mail.ru",
+            "homepage": "https://github.com/motokraft",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "motokraft/object": "^1.0"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Motokraft\\Validator\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
